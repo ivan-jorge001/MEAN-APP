@@ -7,7 +7,7 @@ const bodyParser   = require('body-parser');
 const layouts      = require('express-ejs-layouts');
 const mongoose     = require('mongoose');
 
-s
+
 mongoose.connect('mongodb://localhost/meanapp');
 
 const app = express();
